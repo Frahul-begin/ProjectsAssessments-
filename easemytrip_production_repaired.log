@@ -1,0 +1,51 @@
+2026-06-08 15:16:34,513 [INFO] (easemytrip_booking.py:36) - Initializing context-isolated Chrome environment...
+2026-06-08 15:16:35,961 [INFO] (easemytrip_booking.py:316) - Launching Target Production Application Dashboard.
+2026-06-08 15:16:43,451 [INFO] (easemytrip_booking.py:321) - PHASE 1: Injecting Dynamic Origins Parameters...
+2026-06-08 15:16:47,517 [INFO] (easemytrip_booking.py:229) - Successfully processed auto-complete node: Hyderabad
+2026-06-08 15:16:47,518 [INFO] (easemytrip_booking.py:328) - Injecting Dynamic Destinations Parameters...
+2026-06-08 15:16:48,739 [INFO] (easemytrip_booking.py:169) - Native click intercepted for 'to_field'. Failing over to direct JavaScript injection execution.
+2026-06-08 15:16:52,312 [INFO] (easemytrip_booking.py:229) - Successfully processed auto-complete node: Pune
+2026-06-08 15:16:52,312 [INFO] (easemytrip_booking.py:335) - Resolving Dynamic Calendar Targets for 22/06/2026...
+2026-06-08 15:16:52,313 [INFO] (easemytrip_booking.py:241) - Injecting computed validation future date via DOM hooks: 22/06/2026
+2026-06-08 15:16:53,397 [INFO] (easemytrip_booking.py:339) - Triggering Query Submission Pipe.
+2026-06-08 15:16:54,581 [INFO] (easemytrip_booking.py:169) - Native click intercepted for 'search_btn'. Failing over to direct JavaScript injection execution.
+2026-06-08 15:16:59,342 [INFO] (easemytrip_booking.py:343) - PHASE 2: Injecting Structural Sorting Criteria Filters.
+2026-06-08 15:17:39,891 [INFO] (easemytrip_booking.py:169) - Native click intercepted for 'filter_indigo'. Failing over to direct JavaScript injection execution.
+2026-06-08 15:17:45,645 [INFO] (easemytrip_booking.py:169) - Native click intercepted for 'filter_morning'. Failing over to direct JavaScript injection execution.
+2026-06-08 15:17:47,193 [INFO] (easemytrip_booking.py:362) - Harvesting Filtered Structural Metadata rows.
+2026-06-08 15:17:47,227 [INFO] (easemytrip_booking.py:373) - Extracted 0 flights to data log: execution_artifacts/flights_data_20260608_151747.csv
+2026-06-08 15:17:47,227 [INFO] (easemytrip_booking.py:375) - PHASE 3: Initiating Flight Selection Pipeline Automation Sequence.
+2026-06-08 15:18:02,772 [INFO] (easemytrip_booking.py:381) - Locating sliding fare upgrade dialog container options...
+2026-06-08 15:18:02,951 [INFO] (easemytrip_booking.py:391) - Successfully toggled IndiGo Upfront fare tier package selection.
+2026-06-08 15:18:24,597 [WARNING] (easemytrip_booking.py:405) - Sliding panel selection fallback encountered: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff7f4397de5+14895]
+	chromedriver!GetHandleVerifier [0x7ff7f4397e50+14900]
+	chromedriver!(No symbol) [0x7ff7f40fd5ad]
+	chromedriver!(No symbol) [0x7ff7f4157822]
+	chromedriver!(No symbol) [0x7ff7f4157b2c]
+	chromedriver!(No symbol) [0x7ff7f41a7d17]
+	chromedriver!(No symbol) [0x7ff7f41a486f]
+	chromedriver!(No symbol) [0x7ff7f4149df8]
+	chromedriver!(No symbol) [0x7ff7f414ace3]
+	chromedriver!GetHandleVerifier [0x7ff7f46acc49+3296f9]
+	chromedriver!GetHandleVerifier [0x7ff7f46a7375+323e25]
+	chromedriver!GetHandleVerifier [0x7ff7f46cbc82+348732]
+	chromedriver!GetHandleVerifier [0x7ff7f43b6045+32af5]
+	chromedriver!GetHandleVerifier [0x7ff7f43becec+3b79c]
+	chromedriver!GetHandleVerifier [0x7ff7f43a1bc4+1e674]
+	chromedriver!GetHandleVerifier [0x7ff7f43a1d54+1e804]
+	chromedriver!GetHandleVerifier [0x7ff7f43860e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7fffd989e957+17]
+	ntdll!RtlUserThreadStart [0x7fffdb367c1c+2c]
+. Forcing default direct form pipeline access.
+2026-06-08 15:18:28,606 [INFO] (easemytrip_booking.py:411) - PHASE 4: Injecting Demographics metadata payload to passenger portal.
+2026-06-08 15:18:28,607 [INFO] (easemytrip_booking.py:415) - Targeting insurance declaration selection panel inputs...
+2026-06-08 15:18:30,167 [INFO] (easemytrip_booking.py:425) - Successfully checked option control: 'No, I do not want to insure my trip'
+2026-06-08 15:18:45,436 [INFO] (easemytrip_booking.py:453) - PHASE 5 & 6: Advancing sequential ancillary sections until checkout gateway checkpoint.
+2026-06-08 15:19:03,291 [INFO] (easemytrip_booking.py:288) - Validating airplane seat map interactive panels...
+2026-06-08 15:19:03,329 [INFO] (easemytrip_booking.py:310) - No functional seat selection module visualized. Continuing execution route map.
+2026-06-08 15:19:03,329 [INFO] (easemytrip_booking.py:495) - PHASE 8: Reached Checkout Gateway Terminal Frame. Capturing proof verification artifacts.
+2026-06-08 15:19:05,717 [INFO] (easemytrip_booking.py:504) - SUCCESS: System verify checkout layout point achieved. Artifact saved to: execution_artifacts/payment_gateway_checkpoint_20260608_151747.png
+2026-06-08 15:19:05,718 [INFO] (easemytrip_booking.py:506) - PHASE 9: Gracefully tearing down session and reverting browser context cleanly back to home domain.
+2026-06-08 15:19:10,236 [INFO] (easemytrip_booking.py:519) - De-allocating Runtime Browser Resources Gracefully.
